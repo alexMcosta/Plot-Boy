@@ -12,5 +12,19 @@ client.once('ready', () => {
 	console.log('Ready!');
 });
 
+client.on('interactionCreate', async interaction => {
+	if (!interaction.isChatInputCommand()) return;
+
+	const { commandName } = interaction;
+
+	if (commandName === 'moms') {
+		await interaction.reply('Hollow, Darto, and Autumn');
+	} else if (commandName === 'server') {
+		await interaction.reply('Server info.');
+	} else if (commandName === 'user') {
+		await interaction.reply('User info.');
+	}
+});
+
 // Login to Discord with your client's token
 client.login(process.env.BOT_TOKEN)
