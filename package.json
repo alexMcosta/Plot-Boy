@@ -1,7 +1,7 @@
 {
   "name": "plot_boy",
   "version": "1.0.0",
-  "description": "",
+  "description": "Plot Boy is a Discord app that will work Similar to Writer Bot but for plotting",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
@@ -17,5 +17,13 @@
   },
   "devDependencies": {
     "eslint": "^8.22.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexMcosta/Plot-Boy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alexMcosta/Plot-Boy/issues"
+  },
+  "homepage": "https://github.com/alexMcosta/Plot-Boy#readme"
 }
